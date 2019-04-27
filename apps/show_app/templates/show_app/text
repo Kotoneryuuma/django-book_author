@@ -1,0 +1,8 @@
+#update
+obj = Product.objects.get(pk=pk)
+obj.name = "some_new_value"
+obj.save()
+
+easy=Show.objects.get(id=idd)
+easy.title = tit
+easy.save()

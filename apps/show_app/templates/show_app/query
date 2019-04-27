@@ -1,0 +1,16 @@
+
+Show.objects.create(title="Stranger Things", network= "Netflix", desc="Cool cool cool cool. No doubt", release_date= "2016-07-15")
+
+Show.objects.create(title="Brooklyin Nine-Nine", network= "NBC", release_date= "2013-9-17")
+
+Show.objects.create(title="Game of Thrones", network= "HBO", release_date= "2011-4-17")
+
+Show.objects.create(title="Pushing Daisies", network= "ABC", release_date= "2007-10-3")
+
+Show.objects.create(title="Parks and Recreation", network= "NBC", release_date= "2009-4-9")
+
+show1 = Show.objects.get(id=1)
+show2 = Show.objects.get(id=2)
+show3 = Show.objects.get(id=3)
+show4 = Show.objects.get(id=4)
+show5 = Show.objects.get(id=5)
